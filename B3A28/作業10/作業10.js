@@ -91,7 +91,7 @@ lib.ssMetadata = [
 
 
 
-(lib.CachedBmp_17 = function() {
+(lib.CachedBmp_7 = function() {
 	this.initialize(ss["作業10_atlas_2"]);
 	this.gotoAndStop(9);
 }).prototype = p = new cjs.Sprite();
@@ -255,14 +255,6 @@ if (reversed == null) { reversed = false; }
 	props.reversed = reversed;
 	cjs.MovieClip.apply(this,[props]);
 
-	// timeline functions:
-	this.frame_0 = function() {
-		this.stop()；
-	}
-
-	// actions tween:
-	this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(60));
-
 	// 禮物04
 	this.instance = new lib.禮物04();
 	this.instance.setTransform(403.25,631.1,1,1,0,0,0,33.4,22.2);
@@ -286,14 +278,6 @@ if (reversed == null) { reversed = false; }
 	props.reversed = reversed;
 	cjs.MovieClip.apply(this,[props]);
 
-	// timeline functions:
-	this.frame_0 = function() {
-		this.stop()；
-	}
-
-	// actions tween:
-	this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(60));
-
 	// 禮物03
 	this.instance = new lib.禮物03();
 	this.instance.setTransform(308.25,623.6,1,1,0,0,0,35.1,30.9);
@@ -316,14 +300,6 @@ if (reversed == null) { reversed = false; }
 	props.loop = loop;
 	props.reversed = reversed;
 	cjs.MovieClip.apply(this,[props]);
-
-	// timeline functions:
-	this.frame_0 = function() {
-		this.stop()；
-	}
-
-	// actions tween:
-	this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(60));
 
 	// 禮物02
 	this.instance = new lib.禮物02();
@@ -593,7 +569,7 @@ if (reversed == null) { reversed = false; }
 	this.timeline.addTween(cjs.Tween.get(this.instance_9).wait(1));
 
 	// _2
-	this.instance_10 = new lib.CachedBmp_17();
+	this.instance_10 = new lib.CachedBmp_7();
 	this.instance_10.setTransform(186.2,195.9,0.5,0.5);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance_10).wait(1));
